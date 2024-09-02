@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    border-bottom: 1px solid rgb(222, 216, 208);
+    padding: 0 5px 0 0;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sub-container{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(199, 148, 148);
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.new-task{
+    height: 45px;
+    width: 600px;
+    background-color: rgb(201, 186, 212);
+    border-radius: 10px;
+    font-size: 20px
+}
+#task{
+    height: 35px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    padding: 0 8px;
+    font-size: 17px
+}
+.addbutton{
+    padding: 8px 13px;
+    font-size: 15px;
+    background-color: rgb(66, 148, 132);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+.add-task{
+    display: flex;
+    gap: 400px;
+}
+li{
+    list-style: none;
+}
+.incom-task{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+.incom-task ul li label{
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.incom-task ul li{
+    margin: 10px 0;
+    border-bottom: 1px solid rgb(165, 162, 162);
+    display: flex;
+    gap: 10px;
+}
+
+/* conplete task  here */
+
+.com-task{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    height: 100%;
+}
+.com-task ul li{
+    margin: 10px 0;
+    border-bottom: 1px solid rgb(165, 162, 162);
+    display: flex;
+    justify-content: space-between;
+
+  }
+.com-task ul li label {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.com-task ul li input {
+    padding: 6px 9px;
+    background-color: brown;
+    color: bisque;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+}
